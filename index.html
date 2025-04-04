@@ -12,17 +12,15 @@
 
 <body class="bg-light">
 
-<!-- Headers -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-3">
         <img class="navbar-brand" src="images/logo.png" alt="Healthcare Logo" style="height: 60px; width: auto;"> 
 
-<!-- Toggler Button to Toggle Navbar Collapse -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
-<!-- Navbar Content -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item dropdown">
@@ -31,7 +29,7 @@
                         <i class="bi bi-person-circle"></i> Menu
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#viewProfile">View Profile</a></li>
+                        <li><a class="dropdown-item" href="profile.html">View Profile</a></li>
                         <li><a class="dropdown-item" href="#logout" id="logout">Logout</a></li>
                     </ul>
                 </li>  
@@ -45,84 +43,64 @@
             <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 g-4">
 
                 <div class="col">
-                    <a href="#Opthalmology-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/testing-glasses.png" class="img-fluid" alt="Ophthalmology">
-                            <div>Ophthalmology Department</div>
-                        </button>
-                    </a>
+                    <a href="optahalDep.html" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/testing-glasses.png" class="img-fluid mb-2" alt="Ophthalmology">
+                        <div>Ophthalmology Department</div>
+                    </a>                    
                 </div>
                 <div class="col">
-                    <a href="#Gynecology-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/gyno-icon.png" class="img-fluid" alt="Gynecology">
-                            <div>Gynecology Department</div>
-                        </button>
-                    </a>
+                    <a href="#Gynecology-page" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/gyno-icon.png" class="img-fluid mb-2" alt="Gynecology">
+                        <div>Gynecology Department</div>
+                    </a>                    
                 </div>
                 <div class="col">
-                    <a href="internalMed.html">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/internal-med.png" class="img-fluid" alt="Internal Medicine">
-                            <div>Internal Medicine</div>
-                        </button>
+                    <a href="internalMed.html" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/internal-med.png" class="img-fluid mb-2" alt="Internal Medicine">
+                        <div>Internal Medicine</div>
                     </a>
-                </div>
+                </div>                  
                 <div class="col">
-                    <a href="#Dental-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/dental-icon.png" class="img-fluid" alt="Dental">
-                            <div>Dental Department</div>
-                        </button>
+                    <a href="#Dental-page" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/dental-icon.png" class="img-fluid mb-2" alt="Dental">
+                        <div>Dental Department</div>
+                    </a>   
+                </div>
+                <div class="col more-departments">
+                    <a href="#Orthopedic-page" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/bone-icon.png" class="img-fluid mb-2" alt="Orthopedic">
+                        <div>Orthopedic Department</div>
                     </a>
                 </div>
                 <div class="col more-departments">
-                    <a href="#Orthopedic-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/bone-icon.png" class="img-fluid" alt="Orthopedic">
-                            <div>Orthopedic Department</div>
-                        </button>
+                    <a href="ocnologyDep.html" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/oncology0icon.png" class="img-fluid mb-2" alt="Oncology">
+                        <div>Oncology Department</div>
+                    </a>                    
+                </div>
+                <div class="col more-departments">
+                    <a href="#Otolarynology-page" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/otory-icon.png" class="img-fluid mb-2" alt="Otolaryngology">
+                        <div>Otolaryngology Department</div>
                     </a>
                 </div>
                 <div class="col more-departments">
-                    <a href="#Ocnology-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/oncology0icon.png" class="img-fluid" alt="Oncology">
-                            <div>Oncology Department</div>
-                        </button>
+                    <a href="#Pedeatrics-page" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/pedia-icon.png" class="img-fluid mb-2" alt="Pediatrics">
+                        <div>Pediatrics Department</div>
+                    </a>                    
+                </div>
+                <div class="col more-departments">
+                    <a href="surgeryDep.html" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/surgeon-icon.png" class="img-fluid mb-2" alt="Surgery">
+                        <div>Surgery Department</div>
                     </a>
                 </div>
                 <div class="col more-departments">
-                    <a href="#Otolarynology-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/otory-icon.png" class="img-fluid" alt="Otolaryngology">
-                            <div>Otolaryngology Department</div>
-                        </button>
-                    </a>
-                </div>
-                <div class="col more-departments">
-                    <a href="#Pedeatrics-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/pedia-icon.png" class="img-fluid" alt="Pediatrics">
-                            <div>Pediatrics Department</div>
-                        </button>
-                    </a>
-                </div>
-                <div class="col more-departments">
-                    <a href="#Surgery-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/surgeon-icon.png" class="img-fluid" alt="Surgery">
-                            <div>Surgery Department</div>
-                        </button>
-                    </a>
-                </div>
-                <div class="col more-departments">
-                    <a href="#Cardiology-page">
-                        <button class="btn btn-primary department-btn">
-                            <img src="images/cardiology-icon.png" class="img-fluid" alt="Cardiology">
-                            <div>Cardiology Department</div>
-                        </button>
-                    </a>
+                    <a href="#Cardiology-page" class="btn btn-primary department-btn d-flex flex-column align-items-center text-white text-decoration-none">
+                        <img src="images/cardiology-icon.png" class="img-fluid mb-2" alt="Cardiology">
+                        <div>Cardiology Department</div>
+                    </a>                    
                 </div>
             </div>
             <div class="text-center mt-3">
@@ -131,7 +109,7 @@
                     Less</button>
             </div>
         </form>
-<!-- Features -->
+
         <h5 class="fw-bold mt-5 mb-4">Features</h5>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <div class="col">
@@ -146,7 +124,7 @@
             </div>
             <div class="col">
                 <div class="card feature-card">
-                    <a href="">
+                    <a href="medRecord.html">
                         <img src="images/medical-record.png" class="card-img-top" alt="Medical Files">
                         <div class="card-body text-center">
                             <h6 class="card-title">Medical Files</h6>
@@ -156,7 +134,7 @@
             </div>
             <div class="col">
                 <div class="card feature-card">
-                    <a href="">
+                    <a href="medRecord.html">
                         <img src="images/result.png" class="card-img-top" alt="Lab and Radiology Result">
                         <div class="card-body text-center">
                             <h6 class="card-title">Lab and Radiology Result</h6>
@@ -166,7 +144,7 @@
             </div>
         </div>
     </div>
-<!-- Footer -->
+
     <footer class="bg-white text-center py-4 mt-5 shadow-sm">
         <span>&copy; 2025 Healthcare System. SMART Inbox Technology</span>
     </footer>

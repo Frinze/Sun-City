@@ -1,3 +1,4 @@
+// Function for index show more ==========================================
 document.getElementById('see-more-btn').addEventListener('click', function() {
     var departments = document.querySelectorAll('.more-departments');
     departments.forEach(function(department) {
